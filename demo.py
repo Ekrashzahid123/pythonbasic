@@ -201,6 +201,7 @@ mylist4.pop(1)
 print("the list after pop of 2 indec is as",mylist4)
 mylist4.insert(0,"i")
 mylist4.insert(1,'Love')
+#WE WILL CONTINUE FROM LOOP LIST
 
 
 
