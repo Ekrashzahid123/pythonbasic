@@ -146,6 +146,72 @@ length =2
 breath =1
 area=f"the area of square is equal to {length+breath}"
 print(area)
+#-------------------------String Method-------------------------------
+#capatalize method 
+name=f"my Name is  EKrash zahid and i am {age} year old" # type: ignore
+x=name.capitalize()
+print("Convert the string into capital form meanfirst letter is capital and rest of string is same",x)
+#encode this is very useful as string
+name5="My name is Ståle"
+a=name5.encode()
+print("The encode method work as",a)
+#---------------------------LIST IN PYTHON----------------------------
+#LIST=is collection of ordered and changeable.with dublicates member
+
+mylist=["EKRASH ZAHID","USMAN NASIR","SUHBAN AMJAD"]
+print("PRINTING MY FIRST LIST IN PYTHON",mylist)
+#Finding the length of the list 
+print("The length of the list is as",len(mylist))
+#checking the type of the list
+print("The type of the list is as",type(mylist))
+#----------------ACCESSING THE TUPLE ------------------------------------
+#we will use the same list as mylist
+print("The index one of mylist is as",mylist[1])
+print("The list range from",mylist[1:])
+print("The list ranges from",mylist[1:3])
+thistuple=["Apple","Mango","Hello world"]
+if "Apple" in thistuple:
+ print("YES APPLE IS PRESENT")
+ #will be continue soon part of tuple not list
+ #--------------------Change list item in python--------------------------
+ mynewlist=["apple",'mango','Orange','kiwi','banana','Pineappple']
+ print("Nor updated list is as",mynewlist)
+ mynewlist[2]="Ekrash zahid"
+ print("The updated list is as",mynewlist)
+ mynewlist[1:4]=["ali",'Usman']
+ print("The udated list once again is as",mynewlist)
+ #-------------insert method in python-----------------------------------
+ mylist1=['Ali',"Hamza","usman"]
+ print("NOt UPDATED LIST IS AS",mylist1)
+ mylist1.insert(1,"GOOD")
+ print("UPDATED LIST IS AS",mylist1)
+ #---------------------ADD LIST PYTHON------------------------------------
+ mylist2=["ali",'Me','You']
+ add=['I','Me','You']
+ mylist2.append("a")
+ print("list with append is as",mylist2)
+ mylist2.extend(add)
+ print("list with extend",mylist2)
+ #-------------------REMOVE IN THE LIST --------------------------------
+ mylist4=["i",'Love',"python"]
+ print("The list is as",mylist4)
+ mylist4.remove("i"); # type: ignore
+print("The list after remove of element is as",mylist4)
+mylist4.pop(1)
+print("the list after pop of 2 indec is as",mylist4)
+mylist4.insert(0,"i")
+mylist4.insert(1,'Love')
+
+
+
+
+
+ 
+
+
+
+
+
 
 
 
