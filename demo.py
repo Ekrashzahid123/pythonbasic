@@ -202,6 +202,36 @@ print("the list after pop of 2 indec is as",mylist4)
 mylist4.insert(0,"i")
 mylist4.insert(1,'Love')
 #WE WILL CONTINUE FROM LOOP LIST
+mylist6=["Orange","Object oriented","Apple"]
+print("USing for loop and print the element in the list")
+for c in mylist6:
+ print(c)
+ #using while loop to print the list
+ i = 0
+while i < len(mylist6):
+    print(mylist6[i])
+    i = i + 1  # increment statement should be indented
+#---------------------LIST COMPREHESION------------------------------
+mylist2=["EKrash","USMAN","KIWI","AMROOD"]
+newlist=[]
+for x in mylist2:
+  if "K"in x:
+    newlist.append(x)
+
+    print(newlist)
+# THIS IS THE WAY WE CAN TAKE OUT OUR DESIRING VALUE
+#----------------------SORTING THE LIST------------------------------
+mysorting=[90,21,43,222,789]
+mysorting.sort(reverse=True)
+print("THE DESCENDING SORTING IS AS",mysorting)
+#-----------------ASECINDING SORTING IS AS------------------------
+mysorting=[90,87,55,44,31,00]
+mysorting.sort()
+print("THE ASCENDING SORTING IS AS",mysorting)
+#-----------COPY LIST-------------------------------------------
+my=[1,2,4,5,6,7]
+list0=my.copy()
+print("THE NEW LIST IS AS COPY FUNCTIONALITY",list)
 
 
 
